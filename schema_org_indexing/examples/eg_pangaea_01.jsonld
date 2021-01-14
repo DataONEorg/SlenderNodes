@@ -1,0 +1,708 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1594/PANGAEA.925562",
+      "@type": "Dataset",
+      "abstract": "Marine Isotope Stage (MIS) M2, 3.3 Ma, is an isolated cold stage punctuating the benthic oxygen isotope (\u03b4\u00b9\u2078O) stratigraphy of the warm Piacenzian interval of the late Pliocene Epoch. The prominent (~0.65\u2030) \u03b4\u00b9\u2078O increase that defines MIS M2 has prompted debate over the extent to which it signals an early prelude to the rhythmic extensive glaciations of the northern hemisphere that characterise the Quaternary and raised questions about the forcing mechanisms responsible. Recent work suggests that CO\u2082 storage in the deep Atlantic Ocean played an important role in these events but detailed reconstructions of deep ocean chemical stratification are needed to test this idea and competing hypotheses. Here we present new records of the Nd isotope composition of fish debris and \u03b4\u00b9\u00b3C and B/Ca ratios of benthic foraminifera from the northwest and southeast Atlantic Ocean. Our novel geochemical data show that, in contrast to major Quaternary glaciations such as MIS 2 (~21 ka) and MIS 100 (~2.52 Ma), the deep North Atlantic Ocean was weakly chemically stratified during MIS M2. We show that Southern Component Water incursion into the Atlantic Ocean was limited to the deep South Atlantic basin during MIS M2 and peaked well before (~10-15-kyr) the atmospheric CO\u2082 minimum. Our findings imply that the deep Atlantic Ocean was not the principle sink of CO\u2082 sequestered from the atmosphere during MIS M2, implicating a different CO\u2082 storage deep-water reservoir mechanism, presumably Southern Component Water incursion into the Pacific Ocean. Weak chemical stratification in the deep Atlantic Ocean during MIS M2 relative to MIS 100 and 2 suggests comparatively active Atlantic meridional overturning circulation. That suggestion is consistent with the warmth of the high latitude North Atlantic during MIS M2 - surface water temperatures cooled during M2 but only to Holocene values. Our findings may help to explain the paucity of evidence for extensive early glaciation of the northern hemisphere during M2 but leave open the possibility of ice sheet advance on Antarctica.",
+      "citation": [
+        {
+          "@id": "https://doi.org/10.1002/2014GC005297",
+          "@type": [
+            "CreativeWork",
+            "PublicationIssue"
+          ],
+          "creator": [
+            {
+              "@type": "Person",
+              "familyName": "Bell",
+              "givenName": "David B",
+              "name": "David B Bell"
+            },
+            {
+              "@type": "Person",
+              "email": "jung@geo.vu.nl",
+              "familyName": "Jung",
+              "givenName": "Simon J A",
+              "name": "Simon J A Jung"
+            },
+            {
+              "@type": "Person",
+              "email": "dick.kroon@falw.vu.nl",
+              "familyName": "Kroon",
+              "givenName": "Dick",
+              "name": "Dick Kroon"
+            },
+            {
+              "@type": "Person",
+              "email": "llourens@geo.uu.nl",
+              "familyName": "Lourens",
+              "givenName": "Lucas Joost",
+              "name": "Lucas Joost Lourens"
+            },
+            {
+              "@id": "https://orcid.org/0000-0001-8537-1588",
+              "@type": "Person",
+              "email": "dhod07@esc.cam.ac.uk",
+              "familyName": "Hodell",
+              "givenName": "David A",
+              "identifier": "https://orcid.org/0000-0001-8537-1588",
+              "name": "David A Hodell",
+              "url": {
+                "@id": "https://orcid.org/0000-0001-8537-1588"
+              }
+            }
+          ],
+          "datePublished": {
+            "@type": "Date",
+            "@value": "2014"
+          },
+          "identifier": "https://doi.org/10.1002/2014GC005297",
+          "isPartOf": {
+            "@type": "CreativeWorkSeries",
+            "name": "Geochemistry, Geophysics, Geosystems"
+          },
+          "issueNumber": "15(8)",
+          "name": "Local and regional trends in Plio-Pleistocene d18O records from benthic foraminifera",
+          "pagination": "3304-3321",
+          "url": {
+            "@id": "https://doi.org/10.1002/2014GC005297"
+          }
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.quascirev.2020.106644",
+          "@type": [
+            "CreativeWork",
+            "PublicationIssue"
+          ],
+          "creator": [
+            {
+              "@type": "Person",
+              "familyName": "Kirby",
+              "givenName": "Nicola",
+              "name": "Nicola Kirby"
+            },
+            {
+              "@id": "https://orcid.org/0000-0001-5150-5437",
+              "@type": "Person",
+              "email": "ian.bailey@noc.soton.ac.uk",
+              "familyName": "Bailey",
+              "givenName": "Ian",
+              "identifier": "https://orcid.org/0000-0001-5150-5437",
+              "name": "Ian Bailey",
+              "url": {
+                "@id": "https://orcid.org/0000-0001-5150-5437"
+              }
+            },
+            {
+              "@type": "Person",
+              "email": "D.Lang@noc.soton.ac.uk",
+              "familyName": "Lang",
+              "givenName": "David C",
+              "name": "David C Lang"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Brombacher",
+              "givenName": "A",
+              "name": "A Brombacher"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-2880-3847",
+              "@type": "Person",
+              "familyName": "Chalk",
+              "givenName": "Thomas B",
+              "identifier": "https://orcid.org/0000-0002-2880-3847",
+              "name": "Thomas B Chalk",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-2880-3847"
+              }
+            },
+            {
+              "@type": "Person",
+              "familyName": "Parker",
+              "givenName": "Rebecca L",
+              "name": "Rebecca L Parker"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Crocker",
+              "givenName": "Anya J",
+              "name": "Anya J Crocker"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-6909-1575",
+              "@type": "Person",
+              "familyName": "Taylor",
+              "givenName": "Victoria E",
+              "identifier": "https://orcid.org/0000-0002-6909-1575",
+              "name": "Victoria E Taylor",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-6909-1575"
+              }
+            },
+            {
+              "@type": "Person",
+              "familyName": "Milton",
+              "givenName": "J Andy",
+              "name": "J Andy Milton"
+            },
+            {
+              "@id": "https://orcid.org/0000-0003-3688-9668",
+              "@type": "Person",
+              "familyName": "Foster",
+              "givenName": "Gavin L",
+              "identifier": "https://orcid.org/0000-0003-3688-9668",
+              "name": "Gavin L Foster",
+              "url": {
+                "@id": "https://orcid.org/0000-0003-3688-9668"
+              }
+            },
+            {
+              "@type": "Person",
+              "familyName": "Raymo",
+              "givenName": "Maureen E",
+              "name": "Maureen E Raymo"
+            },
+            {
+              "@type": "Person",
+              "email": "dick.kroon@falw.vu.nl",
+              "familyName": "Kroon",
+              "givenName": "Dick",
+              "name": "Dick Kroon"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Bell",
+              "givenName": "David B",
+              "name": "David B Bell"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Wilson",
+              "givenName": "Paul A",
+              "name": "Paul A Wilson"
+            }
+          ],
+          "datePublished": {
+            "@type": "Date",
+            "@value": "2020"
+          },
+          "identifier": "https://doi.org/10.1016/j.quascirev.2020.106644",
+          "isPartOf": {
+            "@type": "CreativeWorkSeries",
+            "name": "Quaternary Science Reviews"
+          },
+          "issueNumber": "250",
+          "name": "On climate and abyssal circulation in the Atlantic Ocean during late Pliocene marine isotope stage M2, \u223c3.3 million years ago",
+          "pagination": "106644",
+          "url": {
+            "@id": "https://doi.org/10.1016/j.quascirev.2020.106644"
+          }
+        },
+        {
+          "@id": "https://doi.org/10.1038/ngeo2688",
+          "@type": [
+            "CreativeWork",
+            "PublicationIssue"
+          ],
+          "creator": [
+            {
+              "@type": "Person",
+              "email": "D.Lang@noc.soton.ac.uk",
+              "familyName": "Lang",
+              "givenName": "David C",
+              "name": "David C Lang"
+            },
+            {
+              "@id": "https://orcid.org/0000-0001-5150-5437",
+              "@type": "Person",
+              "email": "ian.bailey@noc.soton.ac.uk",
+              "familyName": "Bailey",
+              "givenName": "Ian",
+              "identifier": "https://orcid.org/0000-0001-5150-5437",
+              "name": "Ian Bailey",
+              "url": {
+                "@id": "https://orcid.org/0000-0001-5150-5437"
+              }
+            },
+            {
+              "@type": "Person",
+              "familyName": "Wilson",
+              "givenName": "Paul A",
+              "name": "Paul A Wilson"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-2880-3847",
+              "@type": "Person",
+              "familyName": "Chalk",
+              "givenName": "Thomas B",
+              "identifier": "https://orcid.org/0000-0002-2880-3847",
+              "name": "Thomas B Chalk",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-2880-3847"
+              }
+            },
+            {
+              "@id": "https://orcid.org/0000-0003-3688-9668",
+              "@type": "Person",
+              "familyName": "Foster",
+              "givenName": "Gavin L",
+              "identifier": "https://orcid.org/0000-0003-3688-9668",
+              "name": "Gavin L Foster",
+              "url": {
+                "@id": "https://orcid.org/0000-0003-3688-9668"
+              }
+            },
+            {
+              "@id": "https://orcid.org/0000-0003-2556-2619",
+              "@type": "Person",
+              "email": "mgutjahr@geomar.de",
+              "familyName": "Gutjahr",
+              "givenName": "Marcus",
+              "identifier": "https://orcid.org/0000-0003-2556-2619",
+              "name": "Marcus Gutjahr",
+              "url": [
+                {
+                  "@id": "https://orcid.org/0000-0003-2556-2619"
+                },
+                {
+                  "@id": "https://www.geomar.de/mgutjahr/"
+                }
+              ]
+            }
+          ],
+          "datePublished": {
+            "@type": "Date",
+            "@value": "2016"
+          },
+          "identifier": "https://doi.org/10.1038/ngeo2688",
+          "isPartOf": {
+            "@type": "CreativeWorkSeries",
+            "name": "Nature Geoscience"
+          },
+          "issueNumber": "9(5)",
+          "name": "Incursions of southern-sourced water into the deep North Atlantic during late Pliocene glacial intensification",
+          "pagination": "375-379",
+          "url": {
+            "@id": "https://doi.org/10.1038/ngeo2688"
+          }
+        },
+        {
+          "@id": "https://doi.org/10.5194/essd-8-325-2016",
+          "@type": [
+            "CreativeWork",
+            "PublicationIssue"
+          ],
+          "creator": [
+            {
+              "@id": "https://orcid.org/0000-0001-8498-4067",
+              "@type": "Person",
+              "email": "Siv.Lauvset@gfi.uib.no",
+              "familyName": "Lauvset",
+              "givenName": "Siv K",
+              "identifier": "https://orcid.org/0000-0001-8498-4067",
+              "name": "Siv K Lauvset",
+              "url": [
+                {
+                  "@id": "https://orcid.org/0000-0001-8498-4067"
+                },
+                {
+                  "@id": "http://www.uib.no/en/persons/Siv.Kari.Lauvset"
+                }
+              ]
+            },
+            {
+              "@type": "Person",
+              "email": "key@princeton.edu",
+              "familyName": "Key",
+              "givenName": "Robert M",
+              "name": "Robert M Key",
+              "url": {
+                "@id": "http://geoweb.princeton.edu/people/resstaff/key.html"
+              }
+            },
+            {
+              "@id": "https://orcid.org/0000-0003-1696-9142",
+              "@type": "Person",
+              "email": "are.olsen@gfi.uib.no",
+              "familyName": "Olsen",
+              "givenName": "Are",
+              "identifier": "https://orcid.org/0000-0003-1696-9142",
+              "name": "Are Olsen",
+              "url": {
+                "@id": "https://orcid.org/0000-0003-1696-9142"
+              }
+            },
+            {
+              "@type": "Person",
+              "email": "Steven.van.Heuven@nioz.nl",
+              "familyName": "van Heuven",
+              "givenName": "Steven",
+              "name": "Steven van Heuven"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-7598-5700",
+              "@type": "Person",
+              "familyName": "Velo",
+              "givenName": "Anton",
+              "identifier": "https://orcid.org/0000-0002-7598-5700",
+              "name": "Anton Velo",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-7598-5700"
+              }
+            },
+            {
+              "@type": "Person",
+              "familyName": "Lin",
+              "givenName": "Xiaohua",
+              "name": "Xiaohua Lin"
+            },
+            {
+              "@id": "https://orcid.org/0000-0003-4111-9174",
+              "@type": "Person",
+              "email": "cschirnick@geomar.de",
+              "familyName": "Schirnick",
+              "givenName": "Carsten",
+              "identifier": "https://orcid.org/0000-0003-4111-9174",
+              "name": "Carsten Schirnick",
+              "url": [
+                {
+                  "@id": "https://orcid.org/0000-0003-4111-9174"
+                },
+                {
+                  "@id": "https://portal.geomar.de"
+                }
+              ]
+            },
+            {
+              "@type": "Person",
+              "email": "kozyra@ornl.gov",
+              "familyName": "Kozyr",
+              "givenName": "Alexander",
+              "name": "Alexander Kozyr",
+              "url": {
+                "@id": "http://www.esd.ornl.gov/people/kozyr/"
+              }
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-0313-2557",
+              "@type": "Person",
+              "email": "ttanhua@geomar.de",
+              "familyName": "Tanhua",
+              "givenName": "Toste",
+              "identifier": "https://orcid.org/0000-0002-0313-2557",
+              "name": "Toste Tanhua",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-0313-2557"
+              }
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-2326-619X",
+              "@type": "Person",
+              "email": "mario.hoppema@awi.de",
+              "familyName": "Hoppema",
+              "givenName": "Mario",
+              "identifier": "https://orcid.org/0000-0002-2326-619X",
+              "name": "Mario Hoppema",
+              "url": [
+                {
+                  "@id": "https://orcid.org/0000-0002-2326-619X"
+                },
+                {
+                  "@id": "http://www.awi.de/en/about-us/organisation/staff/mario-hoppema.html"
+                }
+              ]
+            },
+            {
+              "@type": "Person",
+              "email": "sara.jutterstrom@chem.gu.se",
+              "familyName": "Jutterstr\u00f8m",
+              "givenName": "Sara",
+              "name": "Sara Jutterstr\u00f8m"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-3704-3990",
+              "@type": "Person",
+              "email": "rsteinf@physik.uni-bremen.de",
+              "familyName": "Steinfeldt",
+              "givenName": "Reiner",
+              "identifier": "https://orcid.org/0000-0002-3704-3990",
+              "name": "Reiner Steinfeldt",
+              "url": [
+                {
+                  "@id": "https://orcid.org/0000-0002-3704-3990"
+                },
+                {
+                  "@id": "http://www.ocean.uni-bremen.de/mitarbeiter/rsteinf/index_rst_eng.html"
+                }
+              ]
+            },
+            {
+              "@type": "Person",
+              "familyName": "Jeansson",
+              "givenName": "Emil",
+              "name": "Emil Jeansson"
+            },
+            {
+              "@id": "https://orcid.org/0000-0002-7328-4599",
+              "@type": "Person",
+              "email": "mishii@mri-jma.go.jp",
+              "familyName": "Ishii",
+              "givenName": "Masao",
+              "identifier": "https://orcid.org/0000-0002-7328-4599",
+              "name": "Masao Ishii",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-7328-4599"
+              }
+            },
+            {
+              "@type": "Person",
+              "email": "fiz.perez@iim.csic.es",
+              "familyName": "P\u00e9rez",
+              "givenName": "Fiz F",
+              "name": "Fiz F P\u00e9rez"
+            },
+            {
+              "@type": "Person",
+              "email": "suzuki@mirc.jha.jp",
+              "familyName": "Suzuki",
+              "givenName": "Toru",
+              "name": "Toru Suzuki"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Watelet",
+              "givenName": "Sylvain",
+              "name": "Sylvain Watelet"
+            }
+          ],
+          "datePublished": {
+            "@type": "Date",
+            "@value": "2016"
+          },
+          "identifier": "https://doi.org/10.5194/essd-8-325-2016",
+          "isPartOf": {
+            "@type": "CreativeWorkSeries",
+            "name": "Earth System Science Data"
+          },
+          "issueNumber": "8(2)",
+          "name": "A new global interior ocean mapped climatology: the 1\u00b0\u202f\u00d7\u2009\u202f1\u00b0 GLODAP version 2",
+          "pagination": "325-340",
+          "url": {
+            "@id": "https://doi.org/10.5194/essd-8-325-2016"
+          }
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.epsl.2007.03.025",
+          "@type": [
+            "CreativeWork",
+            "PublicationIssue"
+          ],
+          "creator": [
+            {
+              "@id": "https://orcid.org/0000-0002-3896-1777",
+              "@type": "Person",
+              "familyName": "Yu",
+              "givenName": "Jimin",
+              "identifier": "https://orcid.org/0000-0002-3896-1777",
+              "name": "Jimin Yu",
+              "url": {
+                "@id": "https://orcid.org/0000-0002-3896-1777"
+              }
+            },
+            {
+              "@type": "Person",
+              "email": "he101@esc.cam.ac.uk",
+              "familyName": "Elderfield",
+              "givenName": "Henry",
+              "name": "Henry Elderfield",
+              "url": {
+                "@id": "http://www.esc.cam.ac.uk/people/academic-staff/harry-elderfield"
+              }
+            }
+          ],
+          "datePublished": {
+            "@type": "Date",
+            "@value": "2007"
+          },
+          "identifier": "https://doi.org/10.1016/j.epsl.2007.03.025",
+          "isPartOf": {
+            "@type": "CreativeWorkSeries",
+            "name": "Earth and Planetary Science Letters"
+          },
+          "issueNumber": "258(1-2)",
+          "name": "Benthic foraminiferal B/Ca ratios reflect deep water carbonate saturation state",
+          "pagination": "73-86",
+          "url": {
+            "@id": "https://doi.org/10.1016/j.epsl.2007.03.025"
+          }
+        }
+      ],
+      "conditionsOfAccess": "unrestricted",
+      "creator": [
+        {
+          "@type": "Person",
+          "familyName": "Kirby",
+          "givenName": "Nicola",
+          "name": "Nicola Kirby"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-5150-5437",
+          "@type": "Person",
+          "email": "ian.bailey@noc.soton.ac.uk",
+          "familyName": "Bailey",
+          "givenName": "Ian",
+          "identifier": "https://orcid.org/0000-0001-5150-5437",
+          "name": "Ian Bailey",
+          "url": {
+            "@id": "https://orcid.org/0000-0001-5150-5437"
+          }
+        },
+        {
+          "@type": "Person",
+          "email": "D.Lang@noc.soton.ac.uk",
+          "familyName": "Lang",
+          "givenName": "David C",
+          "name": "David C Lang"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Brombacher",
+          "givenName": "A",
+          "name": "A Brombacher"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2880-3847",
+          "@type": "Person",
+          "familyName": "Chalk",
+          "givenName": "Thomas B",
+          "identifier": "https://orcid.org/0000-0002-2880-3847",
+          "name": "Thomas B Chalk",
+          "url": {
+            "@id": "https://orcid.org/0000-0002-2880-3847"
+          }
+        },
+        {
+          "@type": "Person",
+          "familyName": "Parker",
+          "givenName": "Rebecca L",
+          "name": "Rebecca L Parker"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Crocker",
+          "givenName": "Anya J",
+          "name": "Anya J Crocker"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-6909-1575",
+          "@type": "Person",
+          "familyName": "Taylor",
+          "givenName": "Victoria E",
+          "identifier": "https://orcid.org/0000-0002-6909-1575",
+          "name": "Victoria E Taylor",
+          "url": {
+            "@id": "https://orcid.org/0000-0002-6909-1575"
+          }
+        },
+        {
+          "@type": "Person",
+          "familyName": "Milton",
+          "givenName": "J Andy",
+          "name": "J Andy Milton"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3688-9668",
+          "@type": "Person",
+          "familyName": "Foster",
+          "givenName": "Gavin L",
+          "identifier": "https://orcid.org/0000-0003-3688-9668",
+          "name": "Gavin L Foster",
+          "url": {
+            "@id": "https://orcid.org/0000-0003-3688-9668"
+          }
+        },
+        {
+          "@type": "Person",
+          "familyName": "Raymo",
+          "givenName": "Maureen E",
+          "name": "Maureen E Raymo"
+        },
+        {
+          "@type": "Person",
+          "email": "dick.kroon@falw.vu.nl",
+          "familyName": "Kroon",
+          "givenName": "Dick",
+          "name": "Dick Kroon"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Bell",
+          "givenName": "David B",
+          "name": "David B Bell"
+        },
+        {
+          "@type": "Person",
+          "familyName": "Wilson",
+          "givenName": "Paul A",
+          "name": "Paul A Wilson"
+        }
+      ],
+      "datePublished": {
+        "@type": "Date",
+        "@value": "2020-12-09"
+      },
+      "description": "Marine Isotope Stage (MIS) M2, 3.3 Ma, is an isolated cold stage punctuating the benthic oxygen isotope (\u03b4\u00b9\u2078O) stratigraphy of the warm Piacenzian interval of the late Pliocene Epoch. The prominent (~0.65\u2030) \u03b4\u00b9\u2078O increase that defines MIS M2 has prompted debate over the extent to which it signals an early prelude to the rhythmic extensive glaciations of the northern hemisphere that characterise the Quaternary and raised questions about the forcing mechanisms responsible. Recent work suggests that CO\u2082 storage in the deep Atlantic Ocean played an important role in these events but detailed reconstructions of deep ocean chemical stratification are needed to test this idea and competing hypotheses. Here we present new records of the Nd isotope composition of fish debris and \u03b4\u00b9\u00b3C and B/Ca ratios of benthic foraminifera from the northwest and southeast Atlantic Ocean. [\u2026]",
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": {
+          "@id": "https://doi.pangaea.de/10.1594/PANGAEA.925562?format=zip"
+        },
+        "encodingFormat": "application/zip"
+      },
+      "identifier": "https://doi.org/10.1594/PANGAEA.925562",
+      "inLanguage": "en",
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "disambiguatingDescription": "Data Publisher for Earth & Environmental Science",
+        "name": "PANGAEA",
+        "url": {
+          "@id": "https://www.pangaea.de/"
+        }
+      },
+      "isAccessibleForFree": true,
+      "keywords": "AMOC; Atlantic circulation; B/Ca; Last Glacial; MIS 100; MIS M2; Nd isotopes",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "name": "Neodymium isotopes, B/Ca and \u03b4\u00b9\u00b3C, and fresh sand volcanic glass count data from ODP Site 208-1267 and IODP Site 306-U1313 for MIS M2, MIS 100 and the Last Glacial-Holocene",
+      "publisher": {
+        "@type": "Organization",
+        "disambiguatingDescription": "Data Publisher for Earth & Environmental Science",
+        "name": "PANGAEA",
+        "url": {
+          "@id": "https://www.pangaea.de/"
+        }
+      },
+      "size": {
+        "@type": "QuantitativeValue",
+        "unitText": "datasets",
+        "value": 4.0
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoShape",
+          "box": "-28.09816 -32.95731 41.000022722222 1.71098"
+        }
+      },
+      "temporalCoverage": "2003-04-21T09:40:00/2003-04-26T16:45:00",
+      "url": {
+        "@id": "https://doi.pangaea.de/10.1594/PANGAEA.925562"
+      }
+    }
+  ]
+}
