@@ -1,0 +1,306 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.bco-dmo.org/dataset/835593",
+      "@type": "Dataset",
+      "about": {
+        "@id": "http://lod.bco-dmo.org/id/award/775815",
+        "@type": "MonetaryGrant",
+        "funder": {
+          "@id": "https://www.bco-dmo.org/node/355"
+        },
+        "name": "OCE-1829636",
+        "sameAs": "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1829636",
+        "sponsor": {
+          "@id": "http://lod.bco-dmo.org/id/person/50534",
+          "@type": "Person",
+          "name": "David L. Garrison",
+          "url": "https://www.bco-dmo.org/person/50534"
+        },
+        "url": "https://www.bco-dmo.org/award/775815"
+      },
+      "alternateName": "CTD Profile Casts",
+      "creator": {
+        "@id": "https://www.bco-dmo.org/person/51049",
+        "@type": "Person",
+        "identifier": {
+          "@id": "https://orcid.org/0000-0001-6283-8077",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/orcid",
+          "url": "https://orcid.org/0000-0001-6283-8077",
+          "value": "orcid:0000-0001-6283-8077"
+        },
+        "name": "Steven W. Wilhelm",
+        "url": "https://www.bco-dmo.org/person/51049"
+      },
+      "datePublished": "2021-01-07",
+      "description": "",
+      "funder": {
+        "@id": "https://www.bco-dmo.org/node/355",
+        "@type": "FundingAgency",
+        "alternateName": "NSF OCE",
+        "identifier": {
+          "@id": "https://doi.org/10.13039/100000141",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/doi",
+          "url": "https://doi.org/10.13039/100000141",
+          "value": "doi:10.13039/100000141"
+        },
+        "name": "NSF Division of Ocean Sciences"
+      },
+      "identifier": "http://lod.bco-dmo.org/id/dataset/835593",
+      "isAccessibleForFree": true,
+      "keywords": "oceans",
+      "license": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://spdx.org/licenses/CC-BY-4.0"
+      ],
+      "measurementTechnique": "CTD Sea-Bird",
+      "name": "CTD Depth Profile Cast Data for the InVirT-2019-BATS (Bermuda Atlantic Time Series) project taken in the  on board of the R/V Atlantic Explorer AE1926 in 2019",
+      "producer": {
+        "@id": "https://www.bco-dmo.org/project/775816",
+        "@type": "ResearchProject",
+        "alternateName": "InVirT",
+        "description": "NSF Award Abstract:\nViral infections of marine microbes can transform the fate of microbial populations that fuel global ocean biogeochemical cycles. For example, viral infections of microbes lead to the release of carbon and nutrients back into the environment. This regeneration of carbon and nutrients stimulates the activity of other microbes and diverts carbon and nutrients from larger organisms in marine food webs. Because virus-microbe infections are relatively specific, it is critical to identify those pairs of viruses and microbes that may disproportionally contribute to the turnover of carbon and nutrients in the ocean. This project will develop quantitative approaches and tools to quantify which viruses infect which microbes and to use these data to quantify how viral infections of microbes collectively shape nutrient and carbon cycles in the North Atlantic Ocean. The project will analyze virus-microbe interactions in mesocosms at the Bigelow Laboratory for Ocean Sciences in mid-coast Maine and during open ocean expeditions to the Bermuda Atlantic Time-Series Study (BATS) site. An interdisciplinary team will leverage recent advances in molecular biology, computational biology, and mathematical modeling to identify virus-host partners and their impact on the movement of elements through marine systems. This project will support three graduate students, six undergraduate students and one postdoctoral researcher in an interdisciplinary context. Research advances will be translated into reproducible software methods to be disseminated via the community cyberinfrastructure platform iVirus, with additional training materials presented as part of a viral methods and informatics workshop held at The Ohio State University. The translation of discoveries to the public will be furthered by the involvement of journalism undergraduate students at the University of Tennessee-Knoxville.\nThis project builds upon advances in the molecular toolkit of viromics to develop an integrated approach to characterize lineage-specific rates of infection, lysis, and nutrient release induced by marine viruses in open ocean ecosystems. It will combine theory, in vitro experiments, and in situ sampling to (i) extend a robust inference method for estimating virus-microbe cross-infection networks from time-series data; (ii) establish and characterize in-vitro protocols for inferring cross-infectivity in complex communities using culture-independent methods; (iii) estimate lineage-specific rates of lysis and regeneration of nutrients in marine systems, including applications to coastal and open ocean ecosystems. Project aims focus on quantifying the extent to which virus-induced lysis and regeneration of carbon and nutrients is heterogeneously distributed across microbial populations. To do so, the project will incorporate time series measurements of abundance information (via metagenomes) and activity information (via metatranscriptomes). In so doing, it will advance efforts to understand community-scale interactions rather than those amongst a single virus-host pair. Theoretical methods and in vitro protocols will directly infer lineage-specific infection, lysis, and nutrient release rates in coastal- and open-ocean ecosystems in the North Atlantic Ocean. Results will be used to identify key links that disproportionately influence bulk nutrient release. A novel PCR-based approach will augment and validate the core inference approach. Overall, the project aims to enhance our understanding of how viruses contribute to marine ecosystem function.\nThis award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.\n",
+        "name": "Collaborative Research: Inferring Cellular Lysis and Regeneration of Organic Matter by Marine Viruses",
+        "url": "https://www.bco-dmo.org/project/775816"
+      },
+      "provider": {
+        "@id": "https://www.bco-dmo.org"
+      },
+      "publisher": {
+        "@id": "https://www.bco-dmo.org",
+        "@type": "Organization",
+        "alternateName": "BCO-DMO",
+        "identifier": "http://lod.bco-dmo.org/id/affiliation/191",
+        "name": "Biological and Chemical Data Management Office",
+        "sameAs": "http://www.re3data.org/repository/r3d100000012",
+        "url": "https://www.bco-dmo.org"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "additionalType": "http://www.wikidata.org/entity/Q161779",
+            "name": "Spatial Reference System",
+            "propertyID": "SRS",
+            "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+          },
+          {
+            "@type": "PropertyValue",
+            "additionalType": "http://www.wikidata.org/entity/Q4018860",
+            "name": "Well-Known Text",
+            "propertyID": "WKT",
+            "value": "POLYGON ((-64.38645 0.0147, 0.4904 0.0147, 0.4904 31.827679, -64.38645 31.827679, -64.38645 0.0147))"
+          }
+        ],
+        "geo": {
+          "@type": "GeoShape",
+          "box": "0.0147 -64.38645 31.827679 0.4904",
+          "polygon": "0.0147,-64.38645 31.827679,-64.38645 31.827679,0.4904 0.0147,0.4904 0.0147,-64.38645"
+        }
+      },
+      "subjectOf": {
+        "@type": "DataDownload",
+        "about": "https://www.bco-dmo.org/dataset/835593",
+        "contentUrl": "https://www.bco-dmo.org/dataset/835593/iso",
+        "creativeWorkStatus": "In Review",
+        "encodesCreativeWork": "https://www.bco-dmo.org/dataset/835593",
+        "encodingFormat": [
+          "http://www.isotc211.org/2005/gmd-noaa",
+          "application/xml"
+        ],
+        "name": "ISO 19115-2 (NOAA Profile)"
+      },
+      "temporalCoverage": "2019-10-12/2019-10-17",
+      "url": "https://www.bco-dmo.org/dataset/835593",
+      "variableMeasured": [
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836027",
+          "@type": "PropertyValue",
+          "name": "ID of the CTD cast",
+          "unitText": "unitless"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836028",
+          "@type": "PropertyValue",
+          "name": "description",
+          "unitText": "unitless"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836029",
+          "@type": "PropertyValue",
+          "name": "Beam Transmission",
+          "unitText": "percentage (%)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836030",
+          "@type": "PropertyValue",
+          "name": "Conductivity",
+          "unitText": "siemens per meters (S/m)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836031",
+          "@type": "PropertyValue",
+          "name": "Conductivity",
+          "unitText": "siemens per meters (S/m)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836032",
+          "@type": "PropertyValue",
+          "name": "Density",
+          "unitText": "kilograms per cubic meters (kg/m^3)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836033",
+          "@type": "PropertyValue",
+          "name": "Density",
+          "unitText": "kilograms per cubic meters (kg/m^3)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836034",
+          "@type": "PropertyValue",
+          "name": "Depth",
+          "unitText": "meters (m)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836035",
+          "@type": "PropertyValue",
+          "name": "Descent Rate",
+          "unitText": "meters per seconds (m/s)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836036",
+          "@type": "PropertyValue",
+          "name": "Fluoresence, Chelsea Aqua 3 Chl Con",
+          "unitText": "micrograms per liters (ug/l)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836037",
+          "@type": "PropertyValue",
+          "name": "Fluorescence, WET Labs ECO-AFL/FL",
+          "unitText": "miligrams per cubic  meters (mg/m^3)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836038",
+          "@type": "PropertyValue",
+          "name": "Latitude, south is negative",
+          "unitText": "decimal degrees"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836039",
+          "@type": "PropertyValue",
+          "name": "Longitude, west is negative",
+          "unitText": "decimal degrees"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836040",
+          "@type": "PropertyValue",
+          "name": "Raw oxygen",
+          "unitText": "Volts (V)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836041",
+          "@type": "PropertyValue",
+          "name": "Raw oxygen, 2",
+          "unitText": "Volts (V)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836042",
+          "@type": "PropertyValue",
+          "name": "Oxygen",
+          "unitText": "milligrams per liters (mg/l)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836043",
+          "@type": "PropertyValue",
+          "name": "Oxygen, 2",
+          "unitText": "milligrams per liters (mg/l)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836044",
+          "@type": "PropertyValue",
+          "name": "PAR/Irradiance, Biospherical/Licor",
+          "unitText": "?"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836045",
+          "@type": "PropertyValue",
+          "name": "Pressure",
+          "unitText": "dB"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836046",
+          "@type": "PropertyValue",
+          "name": "Practical salinity",
+          "unitText": "PSU"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836047",
+          "@type": "PropertyValue",
+          "name": "Practical salinity",
+          "unitText": "PSU"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836048",
+          "@type": "PropertyValue",
+          "name": "SPAR, Biospherical/Licor",
+          "unitText": "?"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836049",
+          "@type": "PropertyValue",
+          "name": "Water temperature",
+          "unitText": "degrees Celsius (\u00b0C), International Temperature Scale - 1990"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836050",
+          "@type": "PropertyValue",
+          "name": "Water temperature",
+          "unitText": "degrees Celsius (\u00b0C)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836051",
+          "@type": "PropertyValue",
+          "name": "Water temperature",
+          "unitText": "degrees Celsius (\u00b0C), International Temperature Scale - 1990"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836052",
+          "@type": "PropertyValue",
+          "name": "Water temperature",
+          "unitText": "degrees Celsius (\u00b0C)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836053",
+          "@type": "PropertyValue",
+          "name": "??",
+          "unitText": "unitless"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836054",
+          "@type": "PropertyValue",
+          "name": "??",
+          "unitText": "?"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836055",
+          "@type": "PropertyValue",
+          "name": "??",
+          "unitText": "?"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/836056",
+          "@type": "PropertyValue",
+          "name": "??",
+          "unitText": "?"
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}
