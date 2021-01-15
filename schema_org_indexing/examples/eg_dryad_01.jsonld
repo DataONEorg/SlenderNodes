@@ -1,0 +1,156 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5061/dryad.g79cnp5ng",
+      "@type": "Dataset",
+      "creator": [
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Federal University of S\u00c3\u00a3o Carlos",
+            "sameAs": {
+              "@id": "https://ror.org/00qdc6m37"
+            }
+          },
+          "familyName": "Becker-Kerber",
+          "givenName": "Bruno",
+          "name": "Bruno Becker-Kerber",
+          "sameAs": {
+            "@id": "http://orcid.org/0000-0002-0853-7051"
+          }
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Sao Paulo",
+            "sameAs": {
+              "@id": "https://ror.org/036rp1748"
+            }
+          },
+          "familyName": "de Barros",
+          "givenName": "Gabriel",
+          "name": "Gabriel de Barros"
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Universidade do Vale do Rio dos Sinos",
+            "sameAs": {
+              "@id": "https://ror.org/05ctmmy43"
+            }
+          },
+          "familyName": "Paim",
+          "givenName": "Paulo",
+          "name": "Paulo Paim",
+          "sameAs": {
+            "@id": "http://orcid.org/0000-0003-2600-5822"
+          }
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Bristol",
+            "sameAs": {
+              "@id": "https://ror.org/0524sp257"
+            }
+          },
+          "familyName": "Prado",
+          "givenName": "Gustavo",
+          "name": "Gustavo Prado",
+          "sameAs": {
+            "@id": "http://orcid.org/0000-0002-4255-6248"
+          }
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Petrobras (Brazil)",
+            "sameAs": {
+              "@id": "https://ror.org/0235kyq22"
+            }
+          },
+          "familyName": "Zucatti",
+          "givenName": "Ana",
+          "name": "Ana Zucatti"
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Poitiers",
+            "sameAs": {
+              "@id": "https://ror.org/04xhy8q59"
+            }
+          },
+          "familyName": "El Albani",
+          "givenName": "Abderrazak",
+          "name": "Abderrazak El Albani"
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Toronto",
+            "sameAs": {
+              "@id": "https://ror.org/03dbr7087"
+            }
+          },
+          "familyName": "Laflamme",
+          "givenName": "Marc",
+          "name": "Marc Laflamme"
+        }
+      ],
+      "description": [
+        "<p>Precambrian filamentous microfossils are common and diverse. Nevertheless, their taxonomic assignment can be difficult due to their overall simple shapes typically lacking in diagnostic features. Here, we report <i>in situ</i> communities of well-preserved, large filamentous impressions from the Ediacaran Itaja\u00c3\u00ad Basin (ca. 563 Ma) of Brazil. The filaments are uniserial (unbranched) and can reach up to 200 \u00c2\u00b5m in width and up to 44 mm in length. They occur as both densely packed or sparsely populated surfaces, and typically show a consistent orientation. Although simple in shape, their preferred orientation suggests they were tethered to the seafloor, and their overall flexibility (e.g. bent, folded, and twisted) supports a biological (rather than sedimentary) affinity. Biometric comparisons with modern filamentous groups further support their biological affinity, suggesting links with either large sulphide-oxidizing bacteria (SOB) or eukaryotes. Other morphological and palaeoecological characteristics further corroborates their similarities with modern large filamentous SOBs. Their widespread occurrence and association with complex Ediacaran macrobiota (e.g. frondose organisms, <i>Palaeopascichnus</i>) suggest that they likely played an important role in the ecological dynamics of these early benthic communities by providing firm substrates for metazoans to inhabit. It is further hypothesized that the dynamic redox condition in the latest Ediacaran, with the non-continuous rise in oxygen concentration and periods of hypoxia, may have created ideal conditions for sulphide-oxidizing bacteria to thrive.</p>\r\n",
+        ""
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": {
+          "@id": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.g79cnp5ng/download"
+        },
+        "encodingFormat": "application/zip"
+      },
+      "identifier": "https://doi.org/10.5061/dryad.g79cnp5ng",
+      "isAccessibleForFree": true,
+      "keywords": [],
+      "license": {
+        "@type": "CreativeWork",
+        "license": {
+          "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        "name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+      },
+      "name": "In situ filamentous communities from the Ediacaran (~563 Ma) of Brazil",
+      "provider": {
+        "@id": "https://datadryad.org"
+      },
+      "publisher": {
+        "@id": "https://datadryad.org",
+        "@type": "Organization",
+        "legalName": "Dryad Digital Repository",
+        "name": "Dryad",
+        "url": {
+          "@id": "https://datadryad.org"
+        }
+      },
+      "spatialCoverage": [],
+      "temporalCoverage": [
+        "2020",
+        "2020-12-18T00:00:00Z"
+      ],
+      "url": {
+        "@id": "http://datadryad.org/stash/dataset/doi%253A10.5061%252Fdryad.g79cnp5ng"
+      },
+      "version": 5
+    }
+  ]
+}

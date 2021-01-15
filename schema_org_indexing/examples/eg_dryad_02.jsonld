@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5061/dryad.nm13s",
+      "@type": "Dataset",
+      "citation": "http://doi.org/10.1371/journal.pone.0131357",
+      "creator": [
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Melbourne",
+            "sameAs": {
+              "@id": "https://ror.org/01ej9dk98"
+            }
+          },
+          "familyName": "Geaney",
+          "givenName": "Joachim T.",
+          "name": "Joachim T. Geaney"
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Emory University",
+            "sameAs": {
+              "@id": "https://ror.org/03czfpz43"
+            }
+          },
+          "familyName": "Treadway",
+          "givenName": "Michael T.",
+          "name": "Michael T. Treadway"
+        },
+        {
+          "@type": "Person",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "University of Melbourne",
+            "sameAs": {
+              "@id": "https://ror.org/01ej9dk98"
+            }
+          },
+          "familyName": "Smillie",
+          "givenName": "Luke D.",
+          "name": "Luke D. Smillie"
+        }
+      ],
+      "description": [
+        "Research in motivation and emotion has been increasingly influenced by the perspective that processes underpinning the motivated approach of rewarding goals are distinct from those underpinning enjoyment during reward consummation. This distinction recently inspired the construction of the Temporal Experience of Pleasure Scale (TEPS), a self-report measure that distinguishes trait anticipatory pleasure (pre-reward feelings of desire) from consummatory pleasure (feelings of enjoyment and gratification upon reward attainment). In a university community sample (N = 97), we examined the TEPS subscales as predictors of (1) the willingness to expend effort for monetary rewards, and (2) affective responses to a pleasant mood induction procedure. Results showed that both anticipatory pleasure and a well-known trait measure of reward motivation predicted effort-expenditure for rewards when the probability of being rewarded was relatively low. Against expectations, consummatory pleasure was unrelated to induced pleasant affect. Taken together, our findings provide support for the validity of the TEPS anticipatory pleasure scale, but not the consummatory pleasure scale.",
+        "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">PLoS One Excel Main Datafile</h4><div class=\"o-metadata__file-description\">Contains trait questionnaire, state affect, and behavioral task data derived from laboratory research with human participants. See ReadMe for variable descriptions.</div><div class=\"o-metadata__file-name\"></div><div class=\"o-metadata__file-name\"></div></div><div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">PLoS One Excel EEfRT Trial Datafile</h4><div class=\"o-metadata__file-description\">Contains trial-wise data from participant performances of the EEfRT task. See ReadMe file for more information.</div><div class=\"o-metadata__file-name\"></div></div>"
+      ],
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": {
+          "@id": "http://datadryad.org/api/v2/datasets/doi%253A10.5061%252Fdryad.nm13s/download"
+        },
+        "encodingFormat": "application/zip"
+      },
+      "identifier": "https://doi.org/10.5061/dryad.nm13s",
+      "isAccessibleForFree": true,
+      "keywords": [
+        "Consummatory Pleasure",
+        "TEPS",
+        "EEfRT",
+        "Behavioral Approach System",
+        "Anticipatory Pleasure"
+      ],
+      "license": {
+        "@type": "CreativeWork",
+        "license": {
+          "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        "name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+      },
+      "name": "Trait anticipatory pleasure predicts effort expenditure for reward",
+      "provider": {
+        "@id": "https://datadryad.org"
+      },
+      "publisher": {
+        "@id": "https://datadryad.org",
+        "@type": "Organization",
+        "legalName": "Dryad Digital Repository",
+        "name": "Dryad",
+        "url": {
+          "@id": "https://datadryad.org"
+        }
+      },
+      "spatialCoverage": [],
+      "temporalCoverage": [
+        "2016",
+        "2016-06-10T00:00:00Z"
+      ],
+      "url": {
+        "@id": "http://datadryad.org/stash/dataset/doi%253A10.5061%252Fdryad.nm13s"
+      },
+      "version": 1
+    }
+  ]
+}
