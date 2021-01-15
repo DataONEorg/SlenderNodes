@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.26022/IEDA/111777",
+      "@type": "Dataset",
+      "author": [
+        {
+          "@type": "Role",
+          "author": {
+            "@type": "Person",
+            "familyName": "Weiss",
+            "givenName": "Yaakov",
+            "name": "Yaakov  Weiss"
+          },
+          "roleName": "Lead Author"
+        },
+        {
+          "@type": "Role",
+          "author": [
+            {
+              "@type": "Person",
+              "familyName": "Goldstein",
+              "givenName": "Steve",
+              "name": "Steve L Goldstein"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Class",
+              "givenName": "Cornelia ",
+              "name": "Cornelia   Class"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Kiro",
+              "givenName": "Yael",
+              "name": "Yael  Kiro"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Harris",
+              "givenName": "Jeff",
+              "name": "Jeff W Harris"
+            },
+            {
+              "@type": "Person",
+              "familyName": "Winkler",
+              "givenName": "Gisela",
+              "name": "Gisela  Winkler"
+            }
+          ],
+          "roleName": "Co Author"
+        }
+      ],
+      "dateCreated": "2020-12-10",
+      "description": "Compilation companion to Weiss et al., 2021\r\nPublished He content and 3He/4He for CLM-derived xenoliths measured by crushing ",
+      "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": "https://ecl.earthchem.org/view.php?id=1777",
+        "datePublished": "2022-12-09 00:00:00",
+        "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      "inLanguage": "English",
+      "keywords": "Global,Helium,isotopic composition,continental xenoliths,crushing method",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "name": "Published He content and 3He/4He for CLM-derived xenoliths measured by crushing ",
+      "provider": {
+        "@type": "Organization",
+        "name": "EarthChem Library"
+      },
+      "publisher": {
+        "@id": "https://www.earthchem.org",
+        "@type": "Organization",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "info@earthchem.org",
+          "name": "Information Desk",
+          "url": "https://www.earthchem.org/contact/"
+        },
+        "name": "EarthChem Library",
+        "url": "https://www.earthchem.org/library"
+      },
+      "sameAs": "https://ecl.earthchem.org/view.php?id=1777",
+      "url": "https://doi.org/10.26022/IEDA/111777"
+    }
+  ]
+}

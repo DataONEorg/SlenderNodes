@@ -1,0 +1,186 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.4211/hs.d5ba5d65348f4c4088bc0e4d1b9c8291",
+      "@type": "Dataset",
+      "additionalType": "http://www.hydroshare.org/terms/CompositeResource",
+      "creativeWorkStatus": "Published",
+      "creator": [
+        {
+          "@type": "Person",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "8200 Old Main Hill, Logan, UT 84322-8200"
+          },
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Utah State University"
+          },
+          "email": "jeff.horsburgh@usu.edu",
+          "name": "Jeffery Horsburgh",
+          "url": [
+            "https://www.hydroshare.org/user/10/",
+            "http://jeffh.usu.edu"
+          ]
+        },
+        {
+          "@type": "Person",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "8200 Old Main Hill, Logan, UT 84322-8200"
+          },
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Utah State University"
+          },
+          "email": "miguel.leonardo@usu.edu",
+          "name": "Miguel E. Leonardo"
+        },
+        {
+          "@type": "Person",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "8200 Old Main Hill, Logan, UT 84322-8200"
+          },
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Utah State University"
+          },
+          "email": "amabdallah@aggiemail.usu.edu",
+          "name": "Adel Abdallah",
+          "url": "https://www.hydroshare.org/user/300/"
+        },
+        {
+          "@type": "Person",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "8200 Old Main Hill, Logan, UT 84322-8200"
+          },
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Utah State University"
+          },
+          "email": "david.rosenberg@usu.edu",
+          "name": "David Rosenberg",
+          "url": "https://www.hydroshare.org/user/1157/"
+        }
+      ],
+      "dateCreated": "2017-03-10T17:10:37.286046+00:00",
+      "dateModified": "2017-05-26T16:19:46.951096+00:00",
+      "datePublished": "2017-05-26T16:19:44.730579+00:00",
+      "description": "This resource contains the final data files and R scripts used in our analysis of water use across two high-traffic, public restrooms on Utah State University's campus. We used an inexpensive, open source, water metering system that uses off-the-shelf electronic components and inexpensive analog meters to measure water use quantity and behavior at high temporal frequency (< 5 s). We demonstrated this technology in the two restrooms at Utah State University before and after installing high efficiency, automatic faucets and toilet flush valves. We also integrated an inexpensive sensor to count user traffic to the restrooms. Sensing and recording restroom visits and water use events at high frequency allowed us to monitor water use behavior and identify water fixture malfunctions, such as undesired leaks. Results also show average water use per person, variability in water use by different fixtures (faucets versus urinals and toilets), variability in water use by fixtures compared to manufacturer specifications, gender differences in water use, and the difference in water use related to retrofit of the restrooms with high efficiency fixtures. The inexpensive metering system can help institutions remotely measure and record water use trends and behavior, identify leaks and fixture malfunctions, and schedule fixture maintenance or upgrades based on their operation, all of which can ultimately help them meet goals for sustainable water use.",
+      "distribution": {
+        "@type": "DataDownload",
+        "contentSize": "96.3\u00a0MB",
+        "contentUrl": "https://www.hydroshare.org/hsapi/resource/d5ba5d65348f4c4088bc0e4d1b9c8291/",
+        "dateModified": "2017-05-26T16:19:46.951096+00:00",
+        "description": "Zipped BagIt Bag containing the HydroShare Resource",
+        "encodingFormat": "application/zip",
+        "identifier": [
+          {
+            "@type": [
+              "PropertyValue",
+              "http://purl.org/spar/datacite/ResourceIdentifier"
+            ],
+            "http://purl.org/spar/datacite/usesIdentifierScheme": {
+              "@id": "http://purl.org/spar/datacite/local-resource-identifier-scheme"
+            },
+            "propertyId": "UUID",
+            "value": "uuid:d5ba5d65348f4c4088bc0e4d1b9c8291"
+          },
+          {
+            "@type": "PropertyValue",
+            "additionalType": [
+              "http://www.wikidata.org/entity/Q185235",
+              "http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions/md5"
+            ],
+            "identifier": "md5:dd7fba48a9aa0ee722356e817ca2566f",
+            "propertyID": "MD5",
+            "value": "dd7fba48a9aa0ee722356e817ca2566f"
+          }
+        ]
+      },
+      "funder": [
+        {
+          "@type": "Organization",
+          "name": "Utah Water Research Laboratory",
+          "url": "http://uwrl.usu.edu"
+        },
+        {
+          "@type": "Organization",
+          "name": "National Science Foundation",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1552444"
+        },
+        {
+          "@type": "Organization",
+          "name": "National Science Foundation",
+          "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1135482"
+        },
+        {
+          "@type": "Organization",
+          "name": "Utah State University Sustainability Office",
+          "url": "https://sustainability.usu.edu/getinvolved/blue-goes-green-grants/"
+        }
+      ],
+      "identifier": {
+        "@type": [
+          "PropertyValue",
+          "http://purl.org/spar/datacite/ResourceIdentifier"
+        ],
+        "http://purl.org/spar/datacite/usesIdentifierScheme": {
+          "@id": "http://purl.org/spar/datacite/doi"
+        },
+        "propertyId": "DOI",
+        "url": "https://doi.org/10.4211/hs.d5ba5d65348f4c4088bc0e4d1b9c8291",
+        "value": "10.4211/hs.d5ba5d65348f4c4088bc0e4d1b9c8291"
+      },
+      "inLanguage": "en-US",
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "HydroShare",
+        "url": "https://www.hydroshare.org/search/"
+      },
+      "isAccessibleForFree": true,
+      "keywords": [
+        "Smart Meter",
+        "Water Use"
+      ],
+      "license": {
+        "@type": "CreativeWork",
+        "text": "This resource is shared under the Creative Commons Attribution CC BY.",
+        "url": "http://creativecommons.org/licenses/by/4.0/"
+      },
+      "name": "Measuring Water Use, Conservation, and Differences by Gender  Using an Inexpensive, High Frequency Metering System",
+      "provider": {
+        "@id": "https://www.hydroshare.org",
+        "@type": "Organization",
+        "name": "HydroShare",
+        "url": "https://www.hydroshare.org"
+      },
+      "publisher": {
+        "@id": "https://www.hydroshare.org"
+      },
+      "sameAs": "https://www.hydroshare.org/resource/d5ba5d65348f4c4088bc0e4d1b9c8291",
+      "spatialCoverage": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.7413,
+          "longitude": -111.8096
+        },
+        "name": "Utah State University Business Building"
+      },
+      "subjectOf": {
+        "@type": "CreativeWork",
+        "encodingFormat": "application/rdf+xml",
+        "name": "Dublin Core Metadata Document Describing the Dataset",
+        "url": "https://www.hydroshare.org/hsapi/resource/d5ba5d65348f4c4088bc0e4d1b9c8291/scimeta/"
+      },
+      "temporalCoverage": "2014-04-16/2015-03-03",
+      "url": "https://doi.org/10.4211/hs.d5ba5d65348f4c4088bc0e4d1b9c8291"
+    }
+  ]
+}
