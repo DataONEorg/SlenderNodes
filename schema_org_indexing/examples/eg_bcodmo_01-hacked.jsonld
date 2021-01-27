@@ -1,0 +1,309 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "creator": {
+      "@container":"@list"
+    }
+  },
+  "@graph": [
+    {
+      "@id": "https://www.bco-dmo.org/dataset/826798",
+      "@type": "Dataset",
+      "about": {
+        "@id": "http://lod.bco-dmo.org/id/award/793409",
+        "@type": "MonetaryGrant",
+        "funder": {
+          "@id": "https://www.bco-dmo.org/node/793406"
+        },
+        "name": "FSML-1418875",
+        "sameAs": "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1418875",
+        "sponsor": {
+          "@id": "http://lod.bco-dmo.org/id/person/793408",
+          "@type": "Person",
+          "name": "Peter McCartney",
+          "url": "https://www.bco-dmo.org/person/793408"
+        },
+        "url": "https://www.bco-dmo.org/award/793409"
+      },
+      "alternateName": "FHLOO",
+      "creator": [
+        {
+          "@id": "https://www.bco-dmo.org/person/471600",
+          "@type": "Person",
+          "name": "Kenneth Sebens",
+          "url": "https://www.bco-dmo.org/person/471600"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/51609",
+          "@type": "Person",
+          "identifier": {
+            "@id": "https://orcid.org/0000-0001-8741-4828",
+            "@type": "PropertyValue",
+            "propertyID": "https://registry.identifiers.org/registry/orcid",
+            "url": "https://orcid.org/0000-0001-8741-4828",
+            "value": "orcid:0000-0001-8741-4828"
+          },
+          "name": "Emily Carrington",
+          "url": "https://www.bco-dmo.org/person/51609"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/793417",
+          "@type": "Person",
+          "name": "Alexander Gagnon",
+          "url": "https://www.bco-dmo.org/person/793417"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/51107",
+          "@type": "Person",
+          "name": "Evelyn J. Lessard",
+          "url": "https://www.bco-dmo.org/person/51107"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/50609",
+          "@type": "Person",
+          "name": "Jan Newton",
+          "url": "https://www.bco-dmo.org/person/50609"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/793414",
+          "@type": "Person",
+          "name": "Billie Swalla",
+          "url": "https://www.bco-dmo.org/person/793414"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/793423",
+          "@type": "Person",
+          "name": "J. Dylan Crosby",
+          "url": "https://www.bco-dmo.org/person/793423"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/793424",
+          "@type": "Person",
+          "name": "Kristy Kull",
+          "url": "https://www.bco-dmo.org/person/793424"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/person/793421",
+          "@type": "Person",
+          "name": "Kirk N. Sato",
+          "url": "https://www.bco-dmo.org/person/793421"
+        }
+      ],
+      "datePublished": "2020-10-16",
+      "description": "<p>pH, pCO2, temperature, salinity, and dissolved oxygen data recorded&nbsp;from 2018-2020 from a sensor array at Friday Harbor Laboratories Ocean Observatory (FHLOO).</p>\r\n",
+      "distribution": [
+        {
+          "@id": "http://lod.bco-dmo.org/id/dataset-file/828547",
+          "@type": "DataDownload",
+          "contentSize": "4005653",
+          "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/26368/1/dataset-826798_fhloo__v1.tsv",
+          "creativeWorkStatus": "Published",
+          "encodingFormat": "text/tab-separated-values",
+          "name": "Tab Separated Values (.tsv)"
+        },
+        {
+          "@id": "http://lod.bco-dmo.org/id/dataset-file/828548",
+          "@type": "DataDownload",
+          "contentSize": "247",
+          "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/26368/2/dataset-826798_fhloo__v1_README.txt",
+          "creativeWorkStatus": "Published",
+          "encodingFormat": "text/plain",
+          "name": "Plain Text"
+        },
+        {
+          "@id": "http://lod.bco-dmo.org/id/dataset-file/828549",
+          "@type": "DataDownload",
+          "contentSize": "66715",
+          "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/26368/3/Dataset_description.pdf",
+          "creativeWorkStatus": "Published",
+          "encodingFormat": "application/pdf",
+          "name": "Portable Document Format (.pdf)"
+        },
+        {
+          "@id": "http://lod.bco-dmo.org/id/dataset-file/828551",
+          "@type": "DataDownload",
+          "contentSize": "225000",
+          "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/26368/5/FHLOO_Additional_Metadata.pdf",
+          "creativeWorkStatus": "Published",
+          "encodingFormat": "application/pdf",
+          "name": "Portable Document Format (.pdf)"
+        }
+      ],
+      "funder": {
+        "@id": "https://www.bco-dmo.org/node/793406",
+        "@type": "FundingAgency",
+        "alternateName": "NSF DBI",
+        "name": "NSF Division of Biological Infrastructure"
+      },
+      "identifier": [
+        "http://lod.bco-dmo.org/id/dataset/826798",
+        {
+          "@id": "https://doi.org/10.26008/1912/bco-dmo.826798.1",
+          "@type": "PropertyValue",
+          "propertyID": "https://registry.identifiers.org/registry/doi",
+          "url": "https://doi.org/10.26008/1912/bco-dmo.826798.1",
+          "value": "doi:10.26008/1912/bco-dmo.826798.1"
+        }
+      ],
+      "isAccessibleForFree": true,
+      "keywords": "oceans",
+      "license": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://spdx.org/licenses/CC-BY-4.0"
+      ],
+      "measurementTechnique": [
+        "CTD Sea-Bird MicroCAT 37",
+        "Submersible Autonomous Moored Instrument",
+        "Aanderaa Oxygen Optodes"
+      ],
+      "name": "Seawater data (2018-2020) recorded from the Friday Harbor Laboratories Ocean Observatory (FHLOO)",
+      "producer": {
+        "@id": "https://www.bco-dmo.org/project/793410",
+        "@type": "ResearchProject",
+        "alternateName": "FHLOO",
+        "description": "Ocean change, including ocean acidification (OA), poses an unprecedented threat to oceanic and coastal ecosystems and to the societies that depend on them. The scale and complexity of the OA problem requires new spatially distributed data collection, and an integrated programmatic approach to OA research. The Salish Sea region, fed by waters of the Northeast Pacific, is particularly vulnerable to OA events associated with ocean upwelling and is already experiencing pH ranges that other areas will not see for many decades; commercial fisheries and shellfish aquaculture already appear to be affected or at risk. OA is further complicated in estuaries such as the Salish Sea by local processes including respiration, production, anoxia, and mixing, resulting in wide pH and pCO2 variation in time and space. Long-range plans for ocean change research at FHL focus on integrated ocean carbonate system observations, utilizing new advances in the development of ocean sensors and instruments, and incorporating biological response studies under laboratory and field conditions. Field conditions will be simulated using environmental and ecosystem modeling studies, and our findings will provide information for assessment of policy, and socio-economic responses.\nSocietal needs will be fully integrated with our research, merging the relevance of the problem and the need for human adaptation to OA. FHL will engage in knowledge transfer, with data and information flowing to and from policy makers, affected communities, scientists, and the general public. The shellfish aquaculture community will benefit economically from the new data and tribal governments will accrue benefits that could help sustain traditional food sources. The public will benefit through targeted education activities that improve general understanding of ocean processes and especially ocean acidification. UW and FHL will train a workforce that is ready to discover and deal with the impacts of OA and to realize adaptive responses that will allow affected industries and communities to thrive in the presence of this threat. Users include groups engaged in marine resource-based economies, members of coastal tribes, managers of marine resources, researchers in academic and government laboratories, and both formal and informal educators. FHL education programs reach broadly, from high school teachers and their students to undergraduate and graduate students and postdoctoral researchers. At the graduate level, FHL will prepare students for careers inside and outside of academia. Under represented minorities (URM) are fully integrated into FHL activities, with the objective of increasing their representation in oceanography, biology, fisheries and other OA and ocean-related fields. We will leverage existing programs (UW IGERT in Ocean Change, FHL Blinks and REU site programs, FHL Research Apprenticeships, NSF BEACON at UW) and create new programs to recruit, mentor, and prepare a community of URM students both on and off the university campus. We will expand our ongoing engagement of Native American students in ocean change research and education, near their own college campus (NWIC) and with their own instructors, in a culturally respectful way.\n",
+        "name": "FSML: Instrumentation at UW Friday Harbor Laboratories for Studies of the Biological Impacts of Ocean Acidification and Ocean Change",
+        "url": "https://www.bco-dmo.org/project/793410"
+      },
+      "provider": {
+        "@id": "https://www.bco-dmo.org"
+      },
+      "publisher": {
+        "@id": "https://www.bco-dmo.org",
+        "@type": "Organization",
+        "alternateName": "BCO-DMO",
+        "identifier": "http://lod.bco-dmo.org/id/affiliation/191",
+        "name": "Biological and Chemical Data Management Office",
+        "sameAs": "http://www.re3data.org/repository/r3d100000012",
+        "url": "https://www.bco-dmo.org"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "additionalType": "http://www.wikidata.org/entity/Q161779",
+            "name": "Spatial Reference System",
+            "propertyID": "SRS",
+            "value": "http://www.opengis.net/def/crs/OGC/1.3/CRS84"
+          },
+          {
+            "@type": "PropertyValue",
+            "additionalType": "http://www.wikidata.org/entity/Q4018860",
+            "name": "Well-Known Text",
+            "propertyID": "WKT",
+            "value": "POLYGON ((-123.007 48.5461, -123.007 48.5461, -123.007 48.5461, -123.007 48.5461, -123.007 48.5461))"
+          }
+        ],
+        "geo": {
+          "@type": "GeoShape",
+          "box": "48.5461 -123.007 48.5461 -123.007",
+          "polygon": "48.5461,-123.007 48.5461,-123.007 48.5461,-123.007 48.5461,-123.007 48.5461,-123.007"
+        }
+      },
+      "subjectOf": {
+        "@id": "http://lod.bco-dmo.org/id/dataset-file/828550",
+        "@type": "DataDownload",
+        "about": "https://www.bco-dmo.org/dataset/826798",
+        "contentSize": "78523",
+        "contentUrl": "https://darchive.mblwhoilibrary.org/bitstream/1912/26368/4/NOAA_ISO19115-2.xml",
+        "creativeWorkStatus": "Published",
+        "encodesCreativeWork": "https://www.bco-dmo.org/dataset/826798",
+        "encodingFormat": [
+          "http://www.isotc211.org/2005/gmd-noaa",
+          "application/xml"
+        ],
+        "name": "ISO 19115-2 (NOAA Profile)"
+      },
+      "temporalCoverage": "2018-05-10/2020-08-01",
+      "url": "https://www.bco-dmo.org/dataset/826798",
+      "variableMeasured": [
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826825",
+          "@type": "PropertyValue",
+          "name": "unique record ID number",
+          "unitText": "unitless"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826826",
+          "@type": "PropertyValue",
+          "name": "Date (UTC) in ISO8601 format: YYYY-MM-DDThh:mmZ",
+          "unitText": "unitless"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826827",
+          "@type": "PropertyValue",
+          "name": "Date (local time zone of PST/PDT) in ISO8601; format: YYYY-MM-DDThh:mm",
+          "unitText": "unitless"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826828",
+          "@type": "PropertyValue",
+          "name": "Dissolved oxygen",
+          "unitText": "micromoles O2 per kilogram (umol O2 kg-1)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826829",
+          "@type": "PropertyValue",
+          "name": "Dissolved oxygen saturation (percent)",
+          "unitText": "unitless (percent)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826830",
+          "@type": "PropertyValue",
+          "name": "Water temperature from Aanderaa Oxygen Optode",
+          "unitText": "degrees Celsius"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826831",
+          "@type": "PropertyValue",
+          "name": "Partial Pressure of CO2 in seawater",
+          "unitText": "microatmospheres (uatm)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826832",
+          "@type": "PropertyValue",
+          "name": "Water temperature from Sunburst SAMI-pCO2",
+          "unitText": "degrees Celsius"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826833",
+          "@type": "PropertyValue",
+          "name": "Seawater pH",
+          "unitText": "seawater pH units (total hydrogen scale)"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826834",
+          "@type": "PropertyValue",
+          "name": "Water temperature from Sunburst SAMI-pH",
+          "unitText": "degrees Celsius"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826835",
+          "@type": "PropertyValue",
+          "name": "Water temperature from Sea-Bird SBE37",
+          "unitText": "degrees Celsius"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826836",
+          "@type": "PropertyValue",
+          "name": "Salinity",
+          "unitText": "psu"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826838",
+          "@type": "PropertyValue",
+          "name": "Latitude of sampling location",
+          "unitText": "degrees North"
+        },
+        {
+          "@id": "https://www.bco-dmo.org/dataset-parameter/826839",
+          "@type": "PropertyValue",
+          "name": "Longitude of sampling location (negative = west)",
+          "unitText": "degrees East"
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}
