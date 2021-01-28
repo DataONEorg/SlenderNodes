@@ -8,15 +8,15 @@ A couple of items randomly selected from [BCO-DMO Datasets](https://www.bco-dmo.
 
 - eg_bcodmo_01
   - Source: https://www.bco-dmo.org/dataset/826798
-  - JSON-LD: [eg_bcodmo_01.jsonld](eg_01.jsonld)
+  - JSON-LD: [eg_bcodmo_01.jsonld](eg_bcodmo_01.jsonld)
   - JSON-LD [Playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2FDataONEorg%2FSlenderNodes%2Fschema-org-indexing%2Fschema_org_indexing%2Fexamples%2Feg_bcodmo_01.jsonld)
 - eg_bcodmo_02
   - Source: https://www.bco-dmo.org/dataset/835593
-  - JSON-LD: [eg_bcodmo_02.jsonld](eg_02.jsonld)
+  - JSON-LD: [eg_bcodmo_02.jsonld](eg_bcodmo_01.jsonld)
   - JSON-LD [Playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2FDataONEorg%2FSlenderNodes%2Fschema-org-indexing%2Fschema_org_indexing%2Fexamples%2Feg_bcodmo_02.jsonld)
 - eg_bcodmo_01-hacked This copy of eg_bcodmo_01 has been modified to set the `@container` for `creator` to `@list` to preserve ordering.
   - Source: https://www.bco-dmo.org/dataset/826798
-  - JSON-LD: [eg_bcodmo_01-hacked.jsonld](eg_01.jsonld)
+  - JSON-LD: [eg_bcodmo_01-hacked.jsonld](eg_bcodmo_01-hacked.jsonld)
   - JSON-LD [Playground](https://json-ld.org/playground/#startTab=tab-expanded&json-ld=https%3A%2F%2Fraw.githubusercontent.com%2FDataONEorg%2FSlenderNodes%2Fschema-org-indexing%2Fschema_org_indexing%2Fexamples%2Feg_bcodmo_01-hacked.jsonld)
 
 ### Dryad Sources
