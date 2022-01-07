@@ -17,7 +17,7 @@ Records retrieved from OAI-PMH harvest for Figshare can have the following outco
 
 Logic for processing records:
 
-![Flow Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/DataONEorg/SlenderNodes/master/oaipmh/figshare/README.rst)
+![Flow Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/DataONEorg/SlenderNodes/master/oaipmh/figshare/README.md)
 
 Diagram source::
 
