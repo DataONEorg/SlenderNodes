@@ -38,7 +38,7 @@ def main():
   )
 
   with open('mnconfig.yaml') as f:
-    mn_config_dict = yaml.load(f)
+    mn_config_dict = yaml.load(f, Loader=yaml.SafeLoader)
 
   try:
     harvest_oai_pmh(mn_config_dict)
