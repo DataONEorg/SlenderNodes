@@ -19,31 +19,32 @@ Logic for processing records:
 
 ![Flow Diagram](https://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/DataONEorg/SlenderNodes/master/oaipmh/figshare/README.md)
 
-Diagram source::
-
-  @startuml
-  start
-  :parse SID, PID, date, SciMeta
-  from record in OAI-PMH harvest;
-  if (SID exists in GMN?) then (yes)
-    if (PID exists in GMN?) then (yes)
-      if (record date for PID is
-          newer than date in GMN) then (yes)
-          : log ignore minor
-            revision event;
-      else (no)
-          : pass;
-      endif
-    else (no)
-    :MN.update() +
-     log update event;
-    endif
+Diagram source:
+```
+@startuml
+start
+:parse SID, PID, date, SciMeta
+from record in OAI-PMH harvest;
+if (SID exists in GMN?) then (yes)
+if (PID exists in GMN?) then (yes)
+  if (record date for PID is
+      newer than date in GMN) then (yes)
+      : log ignore minor
+        revision event;
   else (no)
-   : MN.create() +
-     log create event;
+      : pass;
   endif
-  stop
-  @enduml
+else (no)
+:MN.update() +
+ log update event;
+endif
+else (no)
+: MN.create() +
+ log create event;
+endif
+stop
+@enduml
+```
 
 ## Operation
 
