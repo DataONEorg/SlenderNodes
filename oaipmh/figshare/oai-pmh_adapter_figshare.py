@@ -38,7 +38,7 @@ def main():
   )
 
   with open('mnconfig.yaml') as f:
-    mn_config_dict = yaml.load(f)
+    mn_config_dict = yaml.load(f, Loader=yaml.SafeLoader)
 
   try:
     harvest_oai_pmh(mn_config_dict)
@@ -325,7 +325,7 @@ class GMMClient:
     sysmeta_pyxb.seriesId = sid
     sysmeta_pyxb.formatId = self.node_dict['sci_md_formatId']
     sysmeta_pyxb.size = len(scimeta_str)
-    sysmeta_pyxb.checksum = d1_common.checksum.create_checksum_object_from_string(
+    sysmeta_pyxb.checksum = d1_common.checksum.create_checksum_object_from_bytes(
       scimeta_str
     )
     sysmeta_pyxb.identifier = pid
