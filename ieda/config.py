@@ -22,12 +22,6 @@ SITEMAP_LIST = [
     'cert_pem_path': 'client_cert.pem',
     'cert_key_path': 'client_key_nopassword.pem',
   },
-  {
-    'sitemap': 'usap_sitemap.xml',
-    'gmn_path': 'usap',
-    'cert_pem_path': 'client_cert.pem',
-    'cert_key_path': 'client_key_nopassword.pem',
-  },
 ]
 
 # The following set the rightsholder, submitter and authoritative member node in the
