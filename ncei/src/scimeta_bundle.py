@@ -14,7 +14,7 @@
     3/4/16
 """
 
-import StringIO
+import io
 import logging
 
 from d1_client import mnclient
@@ -26,6 +26,10 @@ import settings
 logger = logging.getLogger('scimeta_bundle')
 
 
+def _to_stream(doc_bytes):
+    return io.BytesIO(doc_bytes)
+
+
 
 class Scimeta_Bundle(object):
 
@@ -35,8 +39,15 @@ class Scimeta_Bundle(object):
             raise ValueError(
                 'Either "pid" or science metadata "doc" or "sysmeta_xml" is None.')
 
-        self.doc = doc.encode('utf-8')
-        self.sysmeta = d1_types.CreateFromDocument(sysmeta_xml)
+        if isinstance(doc, bytes):
+            self.doc = doc
+        else:
+            self.doc = doc.encode('utf-8')
+
+        if hasattr(sysmeta_xml, 'identifier'):
+            self.sysmeta = sysmeta_xml
+        else:
+            self.sysmeta = d1_types.CreateFromDocument(sysmeta_xml)
         self.pid = pid
 
         if self.pid != self.sysmeta.identifier.value():
@@ -60,7 +71,7 @@ class Scimeta_Bundle(object):
             client = mnclient.MemberNodeClient(settings.MN_BASE_URL,
                                                cert_path=settings.CERTIFICATE_FOR_CREATE,
                                                key_path=settings.CERTIFICATE_FOR_CREATE_KEY)
-            client.create(self.pid, StringIO.StringIO(self.doc), self.sysmeta)
+            client.create(self.pid, _to_stream(self.doc), self.sysmeta)
         except UnicodeError as e:
             logger.error(
                 'GMN create error for PID "{0}" in science metadata bundle: {1}'.format(
@@ -82,7 +93,7 @@ class Scimeta_Bundle(object):
             client = mnclient.MemberNodeClient(settings.MN_BASE_URL,
                                                cert_path=settings.CERTIFICATE_FOR_CREATE,
                                                key_path=settings.CERTIFICATE_FOR_CREATE_KEY)
-            client.update(old_pid, StringIO.StringIO(self.doc), self.pid, self.sysmeta)
+            client.update(old_pid, _to_stream(self.doc), self.pid, self.sysmeta)
         except Exception as e:
             logger.error(
                 'GMN update error for PID "{0}" in science metadata bundle: {1}'.format(

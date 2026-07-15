@@ -14,8 +14,9 @@
 """
 
 import logging
+from datetime import datetime, timezone
 
-from nodc_connector import nodc_package
+from ncei_csw import download_iso_xml
 
 
 logger = logging.getLogger('ncei_package')
@@ -25,10 +26,28 @@ class Package(object):
 
     def __init__(self, csw_record=None):
         try:
-            packager = nodc_package.NODCPackageFTP()
-            self.package = packager.fromIteratorEntry(csw_record, True)
+            sid = csw_record['sid']
+            date_modified = csw_record['date_modified']
+            self.package = {
+                'sid': sid,
+                'pid': self._build_pid(sid, date_modified),
+                'date_modified': date_modified,
+                'science_metadata': {
+                    'document': download_iso_xml(sid),
+                },
+            }
         except Exception as e:
-            logger.error('Failed to load NCEI package - {0}'.format(e.message))
+            logger.error('Failed to load NCEI package - {0}'.format(str(e)))
+
+    def _build_pid(self, sid, modified):
+        text = str(modified).strip()
+        if text.endswith('Z'):
+            text = text[:-1] + '+00:00'
+        dt = datetime.fromisoformat(text)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        suffix = dt.astimezone(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
+        return '{0}_{1}'.format(sid, suffix)
 
     def get_pid(self):
         return self.package['pid']
@@ -37,16 +56,16 @@ class Package(object):
         return self.package['sid']
 
     def get_manifest(self):
-        return self.package['manifest']
+        return []
 
     def get_metadata(self):
         return self.package['science_metadata']
 
     def get_data(self):
-        return self.package['data']
+        return []
 
     def get_resource_map(self):
-        return self.package['resource_map']
+        return None
 
 
 class Science_Metadata(Package):
@@ -55,7 +74,7 @@ class Science_Metadata(Package):
         return self.package['science_metadata']['document']
 
     def get_sysmeta(self):
-        return self.package['science_metadata']['sysmeta']
+        return None
 
 
 def main():
