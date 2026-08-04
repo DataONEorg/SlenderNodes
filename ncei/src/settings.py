@@ -16,7 +16,7 @@ import logging
 import os
 
 
-_DEFAULT_LOG_FILE = '/Users/servilla/DataONE/NCEI/ncei.log'
+_DEFAULT_LOG_FILE = '/var/local/dataone/adapter_ncei/ncei.log'
 _LOG_DIR = os.path.dirname(_DEFAULT_LOG_FILE)
 if os.path.isdir(_LOG_DIR):
     _LOG_FILE = _DEFAULT_LOG_FILE
@@ -30,12 +30,12 @@ logging.basicConfig(level=logging.DEBUG,
                     )
 
 
-MN_BASE_URL = 'https://ncei-node.dataone.org/mn'
-CERTIFICATE_FOR_CREATE = '/Users/servilla/Certs/DataONE/urn_node_mnTestNCEI/urn_node_mnTestNCEI.crt'
-CERTIFICATE_FOR_CREATE_KEY = '/Users/servilla/Certs/DataONE/urn_node_mnTestNCEI/private/urn_node_mnTestNCEI.key'
-CACHE_PATH = '/Users/servilla/DataONE/NCEI/content_cache'
+MN_BASE_URL = 'https://gmn2.test.dataone.org/mnTestNCEI/mn'
+CERTIFICATE_FOR_CREATE = '/var/local/dataone/certs/urn_node_NCEI/urn_node_mnTestNCEI.crt'
+CERTIFICATE_FOR_CREATE_KEY = '/var/local/dataone/certs/urn_node_NCEI/private/urn_node_mnTestNCEI.key'
+CACHE_PATH = '/var/local/dataone/slendernodes/ncei/content_cache'
 CACHE_DB = 'cache.sqlite'
-CACHE_REFRESH_FILE = '/Users/servilla/DataONE/NCEI/d1_ncei_adapter/src/cache_refresh.txt'
+CACHE_REFRESH_FILE = '/var/local/dataone/slendernodes/ncei/src/cache_refresh.txt'
 DATE_FORMAT = '%Y-%m-%d %H:%M:%S%z'
 
 NCEI_CSW_URL = 'https://www.ncei.noaa.gov/metadata/geoportal/csw'
